@@ -10,6 +10,17 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-body .card-body {
-    background-color: aquamarine;
+html, body {
+    height: 100%; /* Ensure full height for the body */
+    margin: 0; /* Remove default margins */
 }
+ 
+#app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;  
+   
+} 
+/* #app footer {
+    margin-top: auto;
+} */
